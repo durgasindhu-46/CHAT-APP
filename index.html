@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+<!--logo-->
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <!--font-awesome-->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+ <!--custom css-->
+  <link rel="stylesheet" href="./style.css">
+  <title>CHAT-APP</title>
+</head>
+<body>
+  <!--phone-->
+  <div class="container">
+    <div class="row">
+      <div class="phone">
+        <div class="chat-top">
+          <div class="user">
+            <div class="user-avatar">
+              <div class="back"><i class="fa fa-angle-left" aria-hidden="true"></i></div>
+              <div class="avatar"></div>
+              <div class="user-name">
+                <h2>Samuel Green</h2>
+                <p>Available to walk</p>
+              </div>
+            </div>
+            <div class="dots"><i class="fa fa-ellipsis-v" aria-hidden="true"></i></div>
+          </div>
+        </div>
+        <div class="chat-box">
+          <!--sent messages-->
+          <div class="sent-msg">
+            <p class="sent">That sounds great. I'd be happy to discuss more.</p>
+            <p class="sent">Could you send over some pictures of your dog, please?</p>
+          </div>
+          <!--reply messages-->
+          <div class="reply-msg">
+            <div class="images reply">
+              <div class="dogs"><img src="./images/dog-image-1.jpg" alt=""></div>
+              <div class="dogs"><img src="./images/dog-image-2.jpg" alt=""></div>
+              <div class="dogs"><img src="./images/dog-image-3.jpg" alt=""></div>
+            </div>
+            <p class="reply">Here are a few pictures. She’s a happy girl!</p>
+            <p class="reply">Can you make it?</p>
+          </div>
+          <!--sent messages-->
+          <div class="sent-msg">
+            <p class="sent">She looks so happy! The time we discussed works. How long shall I take her out for?</p>
+            <div class="sent button">
+              <div>
+                <input type="radio" name="select">
+                <label>30 minute walk</label>
+              </div>
+              <div class="price">$29</div>
+            </div>
+            <div class="sent button">
+              <div>
+                <input type="radio" name="select">
+                <label>1 hour walk</label>
+              </div>
+              <div class="price">$49</div>
+            </div>
+          </div>
+          <div class="type-box">
+            <input type="text" name="chat" placeholder="Type a message…">
+            <button class="send"><i class="fa fa-angle-right" aria-hidden="true"></i></button>
+          </div>
+        </div>
+      </div>
+      <!--content-->
+      <div class="content">
+        <h1>Simple booking</h1>
+        <p>Stay in touch with our dog walkers through the chat interface. This makes it easy to
+          discuss arrangements and make bookings. Once the walk has been completed you can rate
+          your walker and book again all through the chat.</p>
+      </div>
+    </div>
+</div>
+</body>
+</html>
